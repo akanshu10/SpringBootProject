@@ -41,3 +41,22 @@ Create GroupId, Artifact ,and package name for your project.
 #
 9- tomcat-embeded-jasper
 
+
+#DataBase configuration
+#
+Database configuration is done in spring boot inside application.proiperties file where we wil use some properties key of database and values for connecting our database to project
+#
+spring.datasource.url=url_of_your_database
+#
+spring.datasource.username=Username_of_your_database
+#
+spring.datasource.password=paswword_of_your_database
+#
+spring.datasource.driver-class-name=your_driver_class_name
+
+#Hibernate configuration of table auto-creation and updation
+#
+spring.jpa.properties.hibernate.dialect=dialect_name
+spring.jpa.show_sql=true/false
+spring.jpa.hibernate.ddl-auto=create/update/drop-create
+
